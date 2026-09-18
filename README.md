@@ -1,5 +1,7 @@
 # Tofu Jobs
 
+[Open the hosted demo](https://tofu-jobs-demo.vercel.app) · [Frontend source](https://github.com/brennanbutler01/tofu-jobs) · [API source](https://github.com/brennanbutler01/tofu-jobs-api)
+
 A personal job-search organizer built with React, TypeScript, Mantine and a C#/.NET API. Track companies, move applications between stages, schedule interviews, keep activity notes and save cover-letter links.
 
 This public edition recovers the original application with updated dependencies, repaired workflows and isolated visitor sessions. It is a portfolio project, not a service for storing real applications or personal information.
