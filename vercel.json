@@ -1,0 +1,1 @@
+{"framework":"vite","buildCommand":"corepack yarn build","installCommand":"corepack yarn install --frozen-lockfile","outputDirectory":"dist","rewrites":[{"source":"/((?!assets/).*)","destination":"/index.html"}]}

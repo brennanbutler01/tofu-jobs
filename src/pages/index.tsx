@@ -1,0 +1,6 @@
+export { default as ErrorPage } from './error'
+export { default as CompaniesPage } from './companies'
+export { default as JobsPage } from './jobs'
+export { default as InterviewsPage } from './interviews'
+export { default as HomePage } from './home'
+export { default as ActivitiesPage } from './activities'
