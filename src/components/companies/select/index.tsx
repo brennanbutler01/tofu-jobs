@@ -13,7 +13,7 @@ const CompanySelect = <T,>({ inputProps, focus = false }: Props<T>) => {
   return (
     <Select
       {...(focus ? { 'data-autofocus': true } : null)}
-      withinPortal
+      withinPortal={false}
       label={'Company'}
       required
       data={(companies || []).map(company => ({

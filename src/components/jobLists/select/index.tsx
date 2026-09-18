@@ -13,7 +13,7 @@ const JobListSelect = <T,>({ inputProps, focus = false }: Props<T>) => {
   return (
     <Select
       {...(focus ? { 'data-autofocus': true } : null)}
-      withinPortal
+      withinPortal={false}
       label={'Job List'}
       required
       data={(jobLists || []).map(jobList => ({
